@@ -1,0 +1,38 @@
+.black {
+    color: #030303;
+}
+
+.blue {
+    color: #0000f0;
+}
+
+.red {
+    color: #f00000;
+}
+
+.purple {
+    color: #f000f0;
+}
+
+.green {
+    color: #00f000;
+}
+
+.yellow {
+    color: #f0f000;
+}
+
+#display {
+    width: 400px;
+    display: grid;
+    grid-template-columns: 100px 100px 100px 100px;
+    grid-auto-rows: 100px;
+}
+
+.cell {
+    font-size: 32pt;
+    text-align: center;
+    /* width: 100px; */
+    height: 40px;
+    /* display: inline-block; */
+}
