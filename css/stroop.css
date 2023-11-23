@@ -22,7 +22,14 @@
     color: #f0f000;
 }
 
+.orange {
+    color: #f08c00;
+}
+
 #display {
+    width: 500px;
+}
+#inner {
     width: 400px;
     display: grid;
     grid-template-columns: 100px 100px 100px 100px;
@@ -35,4 +42,16 @@
     /* width: 100px; */
     height: 40px;
     /* display: inline-block; */
+}
+
+#title {
+    font-size: 42pt;
+}
+
+#time_disp {
+    font-size: 24pt;
+}
+
+#next {
+    font-size: 24pt;
 }
